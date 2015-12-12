@@ -22,7 +22,7 @@
     req.bText = YES;
     req.scene = WXSceneTimeline;
 //    req.scene = WXSceneSession;
-    
+     
     [WXApi sendReq:req];
 }
 
