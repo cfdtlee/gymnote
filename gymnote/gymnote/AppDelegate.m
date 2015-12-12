@@ -19,7 +19,7 @@
 {
     [WXApi registerApp:@"wxc2c4e43c3c59b66f"]; //写上注册的应用id
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     return YES;
 }

@@ -7,18 +7,25 @@
 //
 
 #import "ViewController.h"
-@end
+#import "WXApi.h"
 
-@interface ViewController ()
+
+@interface ViewController ()<WXApiDelegate>
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)testMessage:(UIButton *)sender {
+    SendMessageToWXReq* req = [[SendMessageToWXReq alloc] init];
+    req.text = @"【百日大计】练腿日";
+    req.bText = YES;
+    req.scene = WXSceneTimeline;
+//    req.scene = WXSceneSession;
+    
+    [WXApi sendReq:req];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

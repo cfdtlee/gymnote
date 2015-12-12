@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07C8D1D41C0CB10C004949F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8D1D31C0CB10C004949F6 /* main.m */; };
+		0791D85C1C1CB7C400E52B7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791D85B1C1CB7C400E52B7B /* SystemConfiguration.framework */; };
+		0791D85E1C1CB7E300E52B7B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791D85D1C1CB7E300E52B7B /* libsqlite3.0.tbd */; };
+		0791D8601C1CB7F000E52B7B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791D85F1C1CB7F000E52B7B /* libz.tbd */; };
+		0791D8621C1CB8AF00E52B7B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791D8611C1CB8AF00E52B7B /* libc++.tbd */; };
+		0791D8641C1CB8F700E52B7B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0791D8631C1CB8F700E52B7B /* CoreTelephony.framework */; };
+		0791D8661C1CB98B00E52B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0791D8651C1CB98B00E52B7B /* main.m */; };
 		07C8D1D71C0CB10C004949F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8D1D61C0CB10C004949F6 /* AppDelegate.m */; };
 		07C8D1DA1C0CB10C004949F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C8D1D91C0CB10C004949F6 /* ViewController.m */; };
 		07C8D1DD1C0CB10C004949F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C8D1DB1C0CB10C004949F6 /* Main.storyboard */; };
@@ -36,8 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0791D85B1C1CB7C400E52B7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0791D85D1C1CB7E300E52B7B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0791D85F1C1CB7F000E52B7B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0791D8611C1CB8AF00E52B7B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0791D8631C1CB8F700E52B7B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0791D8651C1CB98B00E52B7B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07C8D1CF1C0CB10C004949F6 /* gymnote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymnote.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		07C8D1D31C0CB10C004949F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		07C8D1D51C0CB10C004949F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		07C8D1D61C0CB10C004949F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		07C8D1D81C0CB10C004949F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -62,6 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0791D8641C1CB8F700E52B7B /* CoreTelephony.framework in Frameworks */,
+				0791D8621C1CB8AF00E52B7B /* libc++.tbd in Frameworks */,
+				0791D8601C1CB7F000E52B7B /* libz.tbd in Frameworks */,
+				0791D85E1C1CB7E300E52B7B /* libsqlite3.0.tbd in Frameworks */,
+				0791D85C1C1CB7C400E52B7B /* SystemConfiguration.framework in Frameworks */,
 				07DFA6711C19DB2C006A973C /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,6 +101,11 @@
 		07C8D1C61C0CB10C004949F6 = {
 			isa = PBXGroup;
 			children = (
+				0791D8631C1CB8F700E52B7B /* CoreTelephony.framework */,
+				0791D8611C1CB8AF00E52B7B /* libc++.tbd */,
+				0791D85F1C1CB7F000E52B7B /* libz.tbd */,
+				0791D85D1C1CB7E300E52B7B /* libsqlite3.0.tbd */,
+				0791D85B1C1CB7C400E52B7B /* SystemConfiguration.framework */,
 				07C8D1D11C0CB10C004949F6 /* gymnote */,
 				07C8D1EB1C0CB10C004949F6 /* gymnoteTests */,
 				07C8D1F61C0CB10C004949F6 /* gymnoteUITests */,
@@ -125,7 +145,7 @@
 		07C8D1D21C0CB10C004949F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				07C8D1D31C0CB10C004949F6 /* main.m */,
+				0791D8651C1CB98B00E52B7B /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -279,8 +299,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				07C8D1DA1C0CB10C004949F6 /* ViewController.m in Sources */,
+				0791D8661C1CB98B00E52B7B /* main.m in Sources */,
 				07C8D1D71C0CB10C004949F6 /* AppDelegate.m in Sources */,
-				07C8D1D41C0CB10C004949F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
