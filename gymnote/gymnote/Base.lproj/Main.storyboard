@@ -65,7 +65,7 @@
             </objects>
             <point key="canvasLocation" x="-238" y="2117"/>
         </scene>
-        <!--View Controller-->
+        <!--Setting-->
         <scene sceneID="e6A-HF-3tU">
             <objects>
                 <viewController id="gpq-YG-bNj" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="more" id="OZn-JW-909"/>
+                    <tabBarItem key="tabBarItem" title="Setting" id="OZn-JW-909"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dmj-W5-9hN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
